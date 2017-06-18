@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="googlecom.codetrek">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewActivity" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".Help" />
+        <activity android:name=".See_example" />
+        <activity
+            android:name=".TwoPics"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true">
+            >
+        </activity>
+        <activity android:name=".MixAndMatch"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"/>
+    </application>
+
+</manifest>
